@@ -1,0 +1,90 @@
+// NAVBAR START
+'#navBar': {
+  backgroundColor: '#0086CA',
+},
+'#navBarBottom': {
+  backgroundColor: '#252159',
+  bottom: 0
+},
+// NAVBAR END
+'#profile': {
+  backgroundColor: '#58585B',
+  left: 320,
+  width: 320
+},
+'#icon': {
+  font: {fontFamily: 'Dangle', fontSize: 28},
+  left: 50,
+  color: '#fff'
+},
+'#avatar': {
+  top: 15,
+  left: 15,
+  width: 290,
+  height: 290,
+  backgroundColor: '#333'
+},
+'#profileScrollView': {
+  height: '100%',
+  top: 51
+},
+'#setImageButton': {
+  top: 240,
+  right: 30,
+  height: 50,
+  width: 140,
+  backgroundColor: '#0086CA'
+},
+'#setImageLabel': {
+  font: {fontFamily: 'Brandon Grotesque', fontSize: 14, fontWeight: 'bold'},
+  color: '#fff',
+  right: 10
+},
+'#setImageIcon': {
+  font: {fontFamily: 'Dangle', fontSize: 20},
+  color: '#fff',
+  borderColor: '#fff',
+  left: 10,
+  borderWidth: 2,
+  borderRadius: 15,
+  height: 30,
+  width: 30
+},
+'#coinStyle': {
+  backgroundColor: '#fff',
+  height: 90,
+  left: 15,
+  right: 15,
+  top: 360
+},
+'#coinStyleLabel': {
+  color: '#fff',
+  top: 338,
+  left: 22,
+  font: {fontFamily: 'Brandon Grotesque', fontSize: 12, fontWeight: 'bold'}
+}
+'#setCoinStyleButton': {
+  backgroundColor: '#0086CA',
+  right: 15,
+  height: 50,
+  width: 110,
+  top: 15
+}
+'#setCoinStyleLabel': {
+  font: {fontFamily: 'Brandon Grotesque', fontSize: 14, fontWeight: 'bold'},
+  color: '#fff'
+},
+'#setPassCode': {
+  backgroundColor: '#0086CA',
+  height: 50,
+  left: 15,
+  right: 15,
+  top: 470
+}
+'#logOut': {
+  top: 540,
+  backgroundColor: '#0086CA',
+  height: 50,
+  left: 15,
+  right: 15
+}

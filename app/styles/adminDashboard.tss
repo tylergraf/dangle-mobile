@@ -1,0 +1,28 @@
+".container": {
+  backgroundColor: "white",
+  left: 0,
+  top: 0
+},
+// NAVBAR START
+'#navBar': {
+  backgroundColor: '#E9194B'
+},
+'#navBarBottom': {
+  bottom: 0
+},
+// NAVBAR END
+"#addKid": {
+  left: 30,
+  right: 30,
+  top: 100
+},
+"#addTask": {
+  left: 30,
+  right: 30,
+  top: 150
+}
+"#kidList": {
+  left: 0,
+  right: 0,
+  top: 200
+}

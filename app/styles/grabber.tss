@@ -1,0 +1,45 @@
+'#grabber': {
+  bottom: -120,
+  backgroundColor: '#0086CA',
+  height: 140,
+  zIndex: 1000,
+  width: 320
+},
+'TableView': {
+  width: 300,
+  top: 21,
+  scrollable: false
+},
+'TableViewRow': {
+  backgroundColor: '#0086CA',
+  borderColor: '#fff',
+  height: 60,
+  borderWidth: '0.5'
+},
+'#grabberIcon': {
+  font: {fontSize: 18, fontFamily: 'Dangle'},
+  color: '#fff'
+},
+'#grab': {
+  height: 20,
+  top: 0,
+  backgroundColor: '#0086CA'
+},
+'.tableRowLabel': {
+  color: '#fff',
+  textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+  left: 5,
+  font: {fontSize: 18, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'},
+},
+'.tableRowIcon': {
+  color: '#fff',
+  textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+  right: 5,
+  font: {fontSize: 24, fontFamily: 'Dangle'},
+},
+'#tableViewRowTopBorder': {
+  height: 0.5,
+  backgroundColor: '#fff',
+  width: 300,
+  top: 20
+}

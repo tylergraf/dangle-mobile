@@ -1,0 +1,14 @@
+<Alloy>
+  <Collection src="kids"/>
+  <Window class="container">
+    <Label id="loginLabel" top="10">Login</Label>
+    <TableView dataCollection="kids" id="UserTable">
+      <TableViewRow id="row" title="{name}" admin="{admin}" kidId="{alloy_id}"></TableViewRow>
+    </TableView>
+    <!-- <TableView id="UserTable">
+      <TableViewRow id="row" title="Tyler" admin="true"></TableViewRow>
+      <TableViewRow id="row" title="Shane" admin="false"></TableViewRow>
+      <TableViewRow id="row" title="Joe" admin="false"></TableViewRow>
+    </TableView> -->
+  </Window>
+</Alloy>

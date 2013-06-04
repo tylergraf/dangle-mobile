@@ -1,0 +1,33 @@
+".container": {
+	backgroundColor: "white",
+  top: 0
+},
+"#back": {
+  top: 10,
+  left: 10
+},
+"TextField": {
+  left: 10,
+  right: 10,
+  height: 40,
+  borderRadius: 0,
+  borderWidth: 1
+}
+'#name': {
+  hintText: 'Maple',
+  top: 60
+},
+"#password": {
+  hintText: '00',
+  passwordMask: true,
+  maxLength: 2,
+  top: 110
+}
+"#avatar": {
+  left: 10,
+  top: 160
+}
+"#saveKid": {
+  left: 10,
+  top: 210
+}

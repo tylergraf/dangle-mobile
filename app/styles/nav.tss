@@ -1,0 +1,26 @@
+".navContainer": {
+	backgroundColor: "#00B690",
+  height: 50,
+  top: 0,
+  width: 320
+},
+'Button': {
+  color: '#fff',
+  top: 10,
+  backgroundImage: 'none',
+  width: 40,
+  font: {fontSize: 22, fontFamily: 'Dangle'},
+  height: 30
+},
+'#navTasks': {
+  left: 10
+},
+'#navTokens': {
+  left: 40
+},
+'#navRewards': {
+  right: 70
+},
+'#mainNavToggleDown': {
+  right: 10
+}

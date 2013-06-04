@@ -1,0 +1,52 @@
+".container": {
+  left: 320,
+  width: 320,
+  top: 50,
+  bottom:20,
+  zIndex: 10
+},
+".right": {
+  bottom: 50
+},
+".right": {
+  bottom: 100
+},
+"Label": {
+  font: {fontSize: 22, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'}
+},
+"Button": {
+  font: {fontSize: 22, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'}
+},
+"TextField": {
+  font: {fontSize: 22, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'}
+}
+// NAVBAR START
+'.navBar': {
+  height: 52,
+  top: 0,
+  // backgroundColor: '#E9194B'
+},
+'.navBarBottom': {
+  // backgroundColor: '#9D1C52',
+  height: 4,
+  bottom: 0
+},
+'.navTitle': {
+  font: {fontSize: 22, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'},
+  color: '#fff',
+  top: 10,
+  left: 90
+},
+'.navBack': {
+  font: {fontSize: 28, fontFamily: 'Dangle'},
+  color: '#fff',
+  left: 10,
+  top: 12
+},
+'.navIcon': {
+  font: {fontSize: 28, fontFamily: 'Dangle'},
+  color: '#fff',
+  left: 50,
+  top: 12
+}
+// NAVBAR END

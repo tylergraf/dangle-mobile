@@ -1,0 +1,33 @@
+<Alloy>
+  <Window>
+    <View id="navBar" class="navBar">
+      <Label id="navBack" class="navBack" text="B" />
+      <Label id="navIcon" class="navIcon" text="P" />
+      <Label id="navTitle" class="navTitle" text="ME" />
+      <View id="navBarBottom" class="navBarBottom" />
+    </View>
+    <ScrollView id="profileScrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false">
+      <View id="view" height="660">
+        <ImageView id="avatar" />
+        <View id="setImageButton">
+          <Label id="setImageIcon" text="P"></Label>
+          <Label id="setImageLabel">SET PICTURE</Label>
+        </View>
+
+        <Label id="coinStyleLabel">COIN STYLE</Label>
+        <View id="coinStyle">
+          <View id="setCoinStyleButton">
+            <Label id="setCoinStyleLabel">SET COINS</Label>
+          </View>
+        </View>
+        <View id="setPassCode">
+          <Label id="setCoinStyleLabel">CHANGE PASSCODE</Label>
+        </View>
+        <View id="logOut">
+          <Label id="setCoinStyleLabel">LOG OUT</Label>
+        </View>
+
+      </View>
+    </ScrollView>
+  </Window>
+</Alloy>

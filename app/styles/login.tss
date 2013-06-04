@@ -1,0 +1,8 @@
+".container": {
+	backgroundColor: "white",
+  left: 0,
+  top: 0
+},
+'#UserTable':{
+  top: 50
+}

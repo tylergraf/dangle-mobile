@@ -1,0 +1,67 @@
+<Alloy>
+  <Collection src="kids"/>
+  <Window class="container">
+    <View id="navBar" class="navBar">
+      <Label id="navBack" class="navBack" text="B" />
+      <Label id="navIcon" class="navIcon" text="R" />
+      <Label id="navTitle" class="navTitle" text="CHORE" />
+      <View id="navBarBottom" class="navBarBottom" />
+    </View>
+    <ScrollView id="adminDashboard" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" height="640" width="320">
+      <View id="scrollViewWrapper" layout="horizontal">
+      <View id="taskTitleWrapper">
+        <TextField id="taskTitle"/>
+        <View id="navBarBottom" />
+      </View>
+
+      <Label id="repeatIcon" class="icon">$</Label>
+      <Label id="repeatLabel" class="brandon">REPEAT</Label>
+      <Label id="repeatValueLabel" class="brandon">Every:</Label>
+      <Label id="repeatValue" class="subHeader">Monday</Label>
+
+      <View id="repeatDays">
+        <Button class="day" id="day" title="M" selected="true" day="Monday"   />
+        <Button class="day" id="day" title="T" selected="false" day="Tuesday"  />
+        <Button class="day" id="day" title="W" selected="false" day="Wednesday"/>
+        <Button class="day" id="day" title="T" selected="false" day="Thursday" />
+        <Button class="day" id="day" title="F" selected="false" day="Friday"   />
+        <Button class="day" id="day" title="S" selected="false" day="Saturday" />
+        <Button class="day" id="day" title="S" selected="false" day="Sunday"   />
+      </View>
+      
+
+      <Label id="valueIcon">100</Label>
+      <Label id="valueLabel" class="subHeader brandon">VALUE</Label>
+      <View id="taskValueWrapper">
+        <TextField id="taskValue"/>
+        <View id="navBarBottom" />
+      </View>
+
+      <!-- ASSIGN TO SECTION -->
+      <Label id="assignIcon" class="icon">P</Label>
+      <Label id="assignLabel" class="subHeader brandon">ASSIGN</Label>
+      <View dataCollection="kids" id="kidsList">
+        <View class="kid">
+          <Button class="kidButton" id="kidButton" kidId="{alloy_id}" title="l" />
+          <Label id="kidName" text="{name}" />
+        </View>
+      </View>
+
+      <!-- <View dataCollection="kids" id="kidsList">
+        <TextField id="kidId" hidden="true"></TextField>
+        <View class="kid">
+          <Button class="kidButton" id="kidButton" kidId="{alloy_id}" title="l" />
+          <Label id="kidName" text="{name}" />
+        </View>
+      </View> -->
+      <View id="divider"></View>
+      <!-- Form Fields-->
+      <TextField id="kidId" height="0" width="0" value="stuff"></TextField>
+      
+      <Button class="button" id="addTaskButton">
+        <Label class="buttonLabel" text="ADD CHORE"></Label>
+      </Button>
+      </View>
+    </ScrollView>
+  </Window>
+</Alloy>

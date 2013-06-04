@@ -1,0 +1,17 @@
+<Alloy>
+  <Collection src="kids"/>
+  <Window class="container" left="0">
+    <View id="navBar" class="navBar">
+      <Label id="navBack" class="navBack" text="B" />
+      <Label id="navIcon" class="navIcon" text="R" />
+      <Label id="navTitle" class="navTitle" text="DASHBOARD" />
+      <View id="navBarBottom" class="navBarBottom" />
+    </View>
+    <!-- <Label top="10">DASHBOARD</Label> -->
+    <Button id="addKid">Add Kid</Button>
+    <Button id="addTask">Add Task</Button>
+    <TableView dataCollection="kids" id="kidList">
+      <TableViewRow title="{name}" kidId="{alloy_id}"></TableViewRow>
+    </TableView>
+	</Window>
+</Alloy>

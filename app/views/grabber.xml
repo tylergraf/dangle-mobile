@@ -1,0 +1,18 @@
+<Alloy>
+  <Window>
+      <View id="grab">
+        <Label id="grabberIcon">G</Label>
+      </View>
+      <View id="tableViewRowTopBorder"></View>
+      <TableView>
+        <TableViewRow id="notesRow">
+          <Label class="tableRowLabel">NOTES</Label>
+          <Label class="tableRowIcon">c</Label>
+        </TableViewRow>
+        <TableViewRow id="profileRow">
+          <Label class="tableRowLabel">ME</Label>
+          <Label class="tableRowIcon">P</Label>
+        </TableViewRow>
+      </TableView>
+  </Window>
+</Alloy>

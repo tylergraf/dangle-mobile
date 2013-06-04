@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">ii2HMvl7RBWliXEUmrL8BwCcntiMXMfZ</property>
+    <property name="acs-oauth-key-production" type="string">NKFrbV4Dbf1KDOEED4sHeRLBBQuaWleB</property>
+    <property name="acs-api-key-production" type="string">jmM161TixhUDnZFZa0E2xTk60Rz6UBe5</property>
+    <property name="acs-oauth-secret-development" type="string">knQKwlwvA02Hn8iMXAzk6Y43GUUSnaEy</property>
+    <property name="acs-oauth-key-development" type="string">udE93smXuDhOBg3GeMV0SK2QVnqw3rI6</property>
+    <property name="acs-api-key-development" type="string">mk6Ud6qEIfcoEKY3C7tvvrho1M9wvllu</property>
+    <id>com.alad</id>
+    <name>alad</name>
+    <version>1.0</version>
+    <publisher>tylergraf</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2013 by tylergraf</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>c746da44-1db9-464d-b113-bd6a93fb7097</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="blackberry">false</target>
+        <target device="android">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.1.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>

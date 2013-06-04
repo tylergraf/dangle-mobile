@@ -1,0 +1,29 @@
+".container": {
+  backgroundColor: "white",
+  left: 0,
+  top: 0
+},
+'TextField': {
+  left: 20,
+  right: 20
+}
+".heading": {
+  top: 10
+},
+"#emailLabel": {
+  top: 50
+},
+"#email": {
+  top: 100,
+  backgroundColor: '#eaeaea'
+},
+"#passwordLabel": {
+  top: 130
+},
+"#password": {
+  top: 150,
+  backgroundColor: '#eaeaea'
+},
+"#signUpView": {
+  visible: false
+}

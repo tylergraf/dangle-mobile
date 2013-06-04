@@ -1,0 +1,196 @@
+".container": {
+  top: 0
+},
+// WINDOW
+'#addTask': {
+  width: 320
+},
+// NAVBAR START
+'#navBar': {
+  backgroundColor: '#E9194B'
+},
+'#navBarBottom': {
+  bottom: 0
+},
+// NAVBAR END
+'#adminDashboard': {
+  top: 52,
+  backgroundColor: '#A7A9AB',
+  layout: 'horizontal',
+  contentWidth: 320,
+  width: 320
+},
+
+// TASK TITLE
+'#taskTitleWrapper': {
+  height: 52,
+  top: 0,
+  backgroundColor: '#E9194B',
+  width: 320
+},
+'#taskTitle': {
+  hintText: "Add a Chore...",
+  left: 5,
+  top: 5,
+  right: 5,
+  bottom: 9,
+  backgroundColor: '#fff'
+},
+
+// TASK REPEAT
+'#repeatIcon': {
+  top: 10,
+  left: 10,
+  width: 20,
+  font: {fontSize: 20, fontFamily: 'Dangle', fontWeight: 'bold'}
+},
+'#repeatLabel': {
+  top: 10,
+  left: 5,
+  width: 280,
+  font: {fontSize: 14, fontFamily: 'Brandon Grotesque', fontWeight: 'normal'}
+},
+'#repeatValueLabel': {
+  top: 5,
+  left: 5,
+  width: 40,
+  font: {fontSize: 12, fontFamily: 'Brandon Grotesque', fontWeight: 'normal'}
+},
+'#repeatValue': {
+  top: 5,
+  left: 1,
+  width: 260,
+  font: {fontSize: 12, fontFamily: 'Brandon Grotesque', fontWeight: 'normal'}
+},
+'#repeatDays': {
+  style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+  color: '#fff',
+  index: 0,
+  backgroundColor: '#E9194B',
+  backgroundImage: 'none',
+  backgroundGradient: { x: '50%', y: '50%' },
+  width: 320,
+  height: 50,
+  opacity: 1,
+  layout: 'horizontal'
+},
+'.day': {
+  backgroundColor: '#E9194B',
+  color: '#fff',
+  backgroundImage: 'none',
+  width: 45,
+  height: 45,
+  font: {fontSize: 26, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'}
+},
+
+// COINS VALUE
+'#valueIcon': {
+  top: 10,
+  left: 10,
+  width: 40,
+  color: '#fff',
+  font: {fontSize: 14, fontFamily: 'Brandon Grotesque', fontWeight: 'normal'}
+},
+'#valueLabel': {
+  top: 10,
+  left: 5,
+  width: 280,
+  color: '#fff',
+  font: {fontSize: 14, fontFamily: 'Brandon Grotesque', fontWeight: 'normal'}
+},
+'#taskValueWrapper': {
+  height: 52,
+  top: 0,
+  backgroundColor: '#E9194B',
+  width: 320
+},
+'#taskValue': {
+  left: 5,
+  top: 5,
+  right: 5,
+  bottom: 9,
+  backgroundColor: '#fff',
+  value: 100,
+  clearOnEdit: true,
+  keyboardType: Ti.UI.KEYBOARD_NUMBER_PAD
+},
+
+
+// CHORE REPEAT
+'#assignIcon': {
+  top: 10,
+  left: 10,
+  width: 20,
+  font: {fontSize: 20, fontFamily: 'Dangle', fontWeight: 'bold'}
+},
+'#assignLabel': {
+  top: 10,
+  left: 5,
+  width: 280,
+  font: {fontSize: 14, fontFamily: 'Brandon Grotesque', fontWeight: 'normal'}
+},
+'#kidsList': {
+  top: 10,
+  contentWidth: 320,
+  width: 320,
+  height: 100,
+  layout: 'horizontal'
+},
+'.kid': {
+  left: 15,
+  right: 15,
+  bottom: 30,
+  width: 65,
+  height: 85
+},
+'.kidButton': {
+  backgroundImage: 'none',
+  font: {fontSize: 20, fontFamily: 'Dangle'}, 
+  top: 0,
+  bottom: 10,
+  left: 0,
+  backgroundColor: '#0086CA',
+  right: 0
+
+},
+'#kidName': {
+  bottom: 0,
+  font: {fontSize: 22, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'},
+  color: '#fff'
+},
+
+'#divider': {
+  width: 320,
+  height: 4,
+  backgroundColor: '#58585B',
+  top: 10
+},
+
+// CONSTANTS
+'.button': {
+  top: 40,
+  left: 40,
+  right: 40,
+  backgroundImage: 'none',
+  backgroundColor: '#E9194B',
+  font: {fontSize: 18, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'},
+  height: 40
+},
+'.buttonIcon': {
+  font: {fontSize: 18, fontFamily: 'Dangle', fontWeight: 'bold'},
+  color: '#fff',
+  left: 80
+},
+'.buttonLabel': {
+  font: {fontSize: 18, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'},
+  color: '#fff',
+  left: 100
+},
+'.icon': {
+  font: {fontSize: 18, fontFamily: 'Dangle', fontWeight: 'bold'},
+  color: '#fff'
+},
+'.brandon': {
+  font: {fontSize: 18, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'},
+  color: '#fff'
+}

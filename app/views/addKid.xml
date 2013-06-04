@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container">
+    <Label top="10">ADD KID</Label>
+    <Button id="back">BACK</Button>
+
+    <TextField id="name"></TextField>
+    <TextField id="password"></TextField>
+    <Button id="avatar">SET AVATAR</Button>
+    <Button id="saveKid">SAVE KID</Button>
+	</Window>
+</Alloy>

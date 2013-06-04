@@ -1,0 +1,7 @@
+".container": {
+	backgroundColor:"white",
+  left: 0
+},
+"#index": {
+  top: 50
+}

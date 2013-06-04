@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="navContainer">
+    <Button id="navTasks">◤</Button>
+    <Button id="navTokens">C</Button>
+    <Button id="navRewards">R</Button>
+    <Button id="mainNavToggleDown" class="unpressed">D</Button>
+	</Window>
+</Alloy>

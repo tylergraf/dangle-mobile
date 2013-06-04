@@ -1,0 +1,19 @@
+<Alloy>
+  <Window class="container">
+    <View id="loginView">
+      <Label class="heading">LOGIN</Label>
+      <Label id="emailLabel">EMAIL</Label>
+      <TextField id="email"></TextField>
+      <Label id="passwordLabel">PASSWORD</Label>
+      <TextField id="password"></TextField>
+      <Button id="loginButton">Login</Button>
+    </View>
+    <View id="signUpView">
+      <Label class="heading">SIGN UP</Label>
+      <Label id="signUpEmailLabel">EMAIL</Label>
+      <TextField id="signUpEmail"></TextField>
+      <Label id="signUpPasswordLabel">PASSWORD</Label>
+      <TextField id="signUpPassword"></TextField>
+    </View>
+  </Window>
+</Alloy>
