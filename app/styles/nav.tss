@@ -1,26 +1,65 @@
 ".navContainer": {
-	backgroundColor: "#00B690",
+  backgroundColor: "#fff",
+  height: 100,
+  top: -50,
+  width: 320
+},
+"#mainNav": {
+  backgroundColor: "#00B690",
+  layout: 'horizontal',
   height: 50,
   top: 0,
   width: 320
 },
-'Button': {
+"#mainNavBottom": {
+  backgroundColor: "#252159",
+  height: 4,
+  bottom: 0,
+  width: 320
+},
+"#TitleContainer": {
+  backgroundColor: "#8b257c",
+  height: 50,
+  bottom: 0,
+  width: 320
+},
+"#TitleContainerBottom": {
+  backgroundColor: "#4e246c",
+  height: 4,
+  bottom: 0,
+  width: 320
+},
+"#Title": {
   color: '#fff',
+  top: 10,
+  left: 40
+},
+"#TitleIcon": {
+  left: 10
+},
+'.icon': {
+  color: '#fff',
+  top: 10,
+  font: {fontSize: 22, fontFamily: 'Dangle'}
+},
+'Button': {
   top: 10,
   backgroundImage: 'none',
   width: 40,
-  font: {fontSize: 22, fontFamily: 'Dangle'},
   height: 30
 },
 '#navTasks': {
-  left: 10
+  left: 20
 },
 '#navTokens': {
-  left: 40
+  left: 20
 },
 '#navRewards': {
-  right: 70
+  left: 20
 },
+'#closeMainNav': {
+  right: 10
+}
 '#mainNavToggleDown': {
   right: 10
 }

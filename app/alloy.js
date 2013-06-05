@@ -24,8 +24,8 @@ function init() {
   Alloy.Globals.controllers = {
     index: Alloy.createController('index'),
     nav: Alloy.createController('nav'),
-    one: Alloy.createController('one'),
-    two: Alloy.createController('two'),
+    coins: Alloy.createController('coins'),
+    rewards: Alloy.createController('rewards'),
     login: Alloy.createController('login'),
     adminDashboard: Alloy.createController('adminDashboard'),
     addKid: Alloy.createController('addKid'),

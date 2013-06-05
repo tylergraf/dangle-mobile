@@ -1,8 +1,17 @@
 <Alloy>
 	<Window class="navContainer">
-    <Button id="navTasks">◤</Button>
-    <Button id="navTokens">C</Button>
-    <Button id="navRewards">R</Button>
-    <Button id="mainNavToggleDown" class="unpressed">D</Button>
+    <View id="mainNav">
+      <Button class="icon" id="navTasks">◤</Button>
+      <Button class="icon" id="navTokens">C</Button>
+      <Button class="icon" id="navRewards">R</Button>
+      <Button class="icon" id="closeMainNav">%</Button>
+      <View id="mainNavBottom"></View>
+    </View>
+    <View id="TitleContainer">
+      <Label class="icon" id="TitleIcon">◤</Label>
+      <Label id="Title">CHORES</Label>
+      <Button class="icon" id="mainNavToggleDown">D</Button>
+      <View id="TitleContainerBottom"></View>
+    </View>
 	</Window>
 </Alloy>
