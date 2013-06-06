@@ -44,7 +44,13 @@ exports.toggleDown = function(navController) {
     navController.animate(toggleDown);
 };
 
-// View Change Animations
+exports.changeTitle = function(views, options) {
+    views.title.setText(options.title);
+    views.titleIcon.setText(options.titleIcon);
+    views.titleContainer.setBackgroundColor(options.backgroundColor);
+    views.titleBottom.setBackgroundColor(options.titleBottom);
+};
+
 slideIn = Titanium.UI.createAnimation({
     left: 0,
     right: 0,
@@ -63,7 +69,6 @@ slideOutRight = Titanium.UI.createAnimation({
     duration: 250
 });
 
-// Nav Change Animations
 toggleUp = Titanium.UI.createAnimation({
     top: 0,
     duration: 250

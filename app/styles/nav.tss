@@ -6,9 +6,12 @@
 },
 "#mainNav": {
   backgroundColor: "#00B690",
-  layout: 'horizontal',
   height: 50,
   top: 0,
+  width: 320
+},
+"#navItems": {
+  layout: 'horizontal',
   width: 320
 },
 "#mainNavBottom": {
@@ -31,8 +34,8 @@
 },
 "#Title": {
   color: '#fff',
-  top: 10,
-  left: 40
+  top: 6,
+  left: 45
 },
 "#TitleIcon": {
   left: 10
@@ -60,6 +63,9 @@
 '#closeMainNav': {
   right: 10
 }
-'#mainNavToggleDown': {
+'#mainNavToggle': {
+  right: 45
+}
+'#subNavToggle': {
   right: 10
 }

@@ -18,7 +18,8 @@
 },
 '#grabberIcon': {
   font: {fontSize: 18, fontFamily: 'Dangle'},
-  color: '#fff'
+  color: '#fff',
+  bottom: 5 
 },
 '#grab': {
   height: 20,
