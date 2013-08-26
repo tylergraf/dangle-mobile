@@ -4,4 +4,85 @@
 },
 "#index": {
   top: 50
-}
+},
+"#dayNav": {
+  // layout: 'horizontal'
+},
+"#prevDay": {
+  left: 10,
+  top: 10,
+  color: '#000'
+},
+"#nextDay": {
+  right: 10,
+  top: 10,
+  color: '#000'
+},
+"#dayTitle": {
+  left: 40,
+  right: 40,
+  top: 10,
+  textAlign: 'center'
+},
+"#taskList": {
+  top: 100
+},
+"#taskListFilter": {
+  top: 50,
+  height: 50,
+  backgroundColor: '#4E246C'
+},
+'#choreFilterAll': {
+  left: 50,
+  color: '#fff',
+  font: {
+    fontWeight: 'bold',
+    fontFamily: 'Brandon Grotesque',
+    fontSize: 20
+  }
+},
+'#choreFilterTodo': {
+  left: 120,
+  color: '#fff',
+  font: {
+    fontWeight: 'bold',
+    fontFamily: 'Brandon Grotesque',
+    fontSize: 20
+  }
+},
+'#choreFilterDone': {
+  left: 210,
+  color: '#fff',
+  font: {
+    fontWeight: 'bold',
+    fontFamily: 'Brandon Grotesque',
+    fontSize: 20
+  }
+},
+'#choreFilterAllCount': {
+  left: 80,
+  color: '#fff',
+  font: {
+    fontWeight: 'normal',
+    fontFamily: 'Brandon Grotesque',
+    fontSize: 14
+  }
+},
+'#choreFilterTodoCount': {
+  left: 160,
+  color: '#fff',
+  font: {
+    fontWeight: 'normal',
+    fontFamily: 'Brandon Grotesque',
+    fontSize: 14
+  }
+},
+'#choreFilterDoneCount': {
+  left: 250,
+  color: '#fff',
+  font: {
+    fontWeight: 'normal',
+    fontFamily: 'Brandon Grotesque',
+    fontSize: 14
+  }
+},

@@ -21,7 +21,7 @@
   right: 30,
   top: 150
 }
-"#kidList": {
+"#transactionList": {
   left: 0,
   right: 0,
   top: 200

@@ -28,7 +28,7 @@ exports.addTask = function(data, cb) {
 
 exports.removeTask = function(id, cb) {
   // deps
-  var tasksCollection = Alloy.Collections.taks,
+  var tasksCollection = Alloy.Collections.tasks,
       task = tasksCollection.get(id);
 
   // remove the task from the collection

@@ -1,10 +1,5 @@
 <Alloy>
-  <Collection src="tasks"/>
   <Window class="container">
-    <Label top="10">One</Label>
-    <Button id="buTTon">BuTTon</Button>
-    <TableView dataCollection="tasks" id="taskList">
-      <TableViewRow title="{title}" taskId="{alloy_id}"></TableViewRow>
-    </TableView>
+    <Label top="10">COINS</Label>  
   </Window>
 </Alloy>

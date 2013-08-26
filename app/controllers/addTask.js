@@ -1,12 +1,16 @@
 // // kids collection
-var kids = Alloy.Collections.kids;
-kids.fetch();
+var kids = Alloy.Collections.kids.fetch();
+$.addTask.addEventListener('open',function(e) {
+  $.taskTitle.focus();
+});
 
 var num = 1;
 // set the kid who will get the task
 $.kidsList.addEventListener('click',function(e) {
   var kidViews = this.getChildren();
-  
+  console.log(JSON.stringify(kidViews));
+  console.log(JSON.stringify(e.source));
+
   if(typeof e.source.kidId !== 'undefined'){
     var kidId = e.source.kidId;
     var opacity = e.source.getOpacity();

@@ -41,16 +41,16 @@
       <Label id="assignIcon" class="icon">P</Label>
       <Label id="assignLabel" class="subHeader brandon">ASSIGN</Label>
       <View dataCollection="kids" id="kidsList">
-        <View class="kid">
-          <Button class="kidButton" id="kidButton" kidId="{alloy_id}" title="l" />
-          <Label id="kidName" text="{name}" />
+        <View class="kid" kidId="{id}">
+          <Button class="kidButton" id="kidButton" kidId="{id}" title="l" />
+          <Label id="kidName" text="{name}" kidId="{id}" />
         </View>
       </View>
 
       <!-- <View dataCollection="kids" id="kidsList">
         <TextField id="kidId" hidden="true"></TextField>
         <View class="kid">
-          <Button class="kidButton" id="kidButton" kidId="{alloy_id}" title="l" />
+          <Button class="kidButton" id="kidButton" kidId="{id}" title="l" />
           <Label id="kidName" text="{name}" />
         </View>
       </View> -->

@@ -18,5 +18,19 @@ exports.definition = {
       "type": "sql",
       "collection_name": "kids"
     }
+  },
+  extendCollection: function(Collection) {
+    _.extend(Collection.prototype, {
+
+      // Implement the comparator method.
+      getById: function(id, taskCollection) {
+        return taskCollection.find(function(task) {
+          return task.get('id') === id;
+        });
+      }
+
+    }); // end extend
+
+    return Collection;
   }
 }

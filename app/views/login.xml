@@ -3,7 +3,7 @@
   <Window class="container">
     <Label id="loginLabel" top="10">Login</Label>
     <TableView dataCollection="kids" id="UserTable">
-      <TableViewRow id="row" title="{name}" admin="{admin}" kidId="{alloy_id}"></TableViewRow>
+      <TableViewRow id="row" title="{name}" admin="{admin}" kidId="{id}"></TableViewRow>
     </TableView>
     <!-- <TableView id="UserTable">
       <TableViewRow id="row" title="Tyler" admin="true"></TableViewRow>

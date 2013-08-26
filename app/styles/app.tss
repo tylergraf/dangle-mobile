@@ -20,6 +20,12 @@
 "TextField": {
   font: {fontSize: 22, fontFamily: 'Brandon Grotesque', fontWeight: 'bold'}
 }
+'.icon': {
+  color: '#fff',
+  top: 10,
+  font: {fontSize: 22, fontFamily: 'Dangle'},
+  backgroundImage: 'none'
+},
 // NAVBAR START
 '.navBar': {
   height: 52,

@@ -1,8 +1,5 @@
 <Alloy>
 	<Window class="container">
-    <Label top="10">Two</Label>
-    <Label id="name" top="50"></Label>
-    <Button id="setName">Set Name</Button>
-    <Button id="logout" bottom="10">Logout</Button>
+    <Label top="10">REWARDS</Label>
 	</Window>
 </Alloy>

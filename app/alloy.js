@@ -2,6 +2,18 @@
 Alloy.Globals.adminUser = {username: 'tylergraf', _id: '44994924824934i34ils'};
 Ti.include('tijax.js');
 
+// set up moment
+var moment = require('moment');
+moment.calendar = {
+    lastDay : '[Yesterday]',
+    sameDay : '[Today]',
+    nextDay : '[Tomorrow]',
+    lastWeek : 'MMM D YYYY',
+    nextWeek : 'MMM D YYYY',
+    sameElse : 'MMM D YYYY'
+};
+Alloy.Globals.timestamp = 'YYYYMMDDHHmmss';
+
 // If no admin user, show admin login page
 if(!Alloy.Globals.adminUser) {
   var adminLogin = Alloy.createController('adminLogin');
@@ -39,3 +51,5 @@ function init() {
   auth.authenticate();
 }
 
+Alloy.Collections.tasks.fetch();
+Alloy.Collections.transactions.fetch();

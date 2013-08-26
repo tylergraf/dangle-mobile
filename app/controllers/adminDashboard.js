@@ -1,6 +1,8 @@
 // kids collection
 var kids = Alloy.Collections.kids;
 kids.fetch();
+var transactions = Alloy.Collections.transactions;
+transactions.fetch();
 
 // click on add kid button
 $.addKid.addEventListener('click',function() {
@@ -21,11 +23,13 @@ $.addTask.addEventListener('click',function() {
 });
 
 // click on kid to delete them
-$.kidList.addEventListener('click',function(e) {
-  var kidMiddleware = require('kidMiddleware'),
-      id = e.source.kidId;
+$.transactionList.addEventListener('click',function(e) {
+  var t = require('transactionMiddleware'),
+      id = e.source.transactionId;
 
-  kidMiddleware.removeKid(id, function(){});
+  t.approveTransaction(id, function(){
+
+  });
 });
 
 $.navBack.addEventListener('click',function() {

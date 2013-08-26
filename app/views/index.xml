@@ -1,5 +1,23 @@
 <Alloy>
+  <Collection src="tasks"/>
 	<Window class="container">
-    <Label top="10">Index</Label>
+    <View id="dayNav">
+      <Button id="prevDay" class="icon" title="◃"></Button>
+      <Label id="dayTitle"></Label>
+      <Button id="nextDay" class="icon" title="▶"></Button>
+    </View>
+    <View id="taskListFilter">
+    <View id="choreFilter">
+      <Label id="choreFilterAll">all</Label>
+      <Label id="choreFilterAllCount">(16)</Label>
+      <Label id="choreFilterTodo">to do</Label>
+      <Label id="choreFilterTodoCount">(12)</Label>
+      <Label id="choreFilterDone">done</Label>
+      <Label id="choreFilterDoneCount">(0)</Label>
+    </View>
+    </View>
+    <TableView dataCollection="tasks" dataFilter="choreFilter" id="taskList">
+      <TableViewRow title="{title}" value="{value}" taskId="{id}"></TableViewRow>
+    </TableView>
 	</Window>
 </Alloy>

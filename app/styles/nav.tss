@@ -40,11 +40,6 @@
 "#TitleIcon": {
   left: 10
 },
-'.icon': {
-  color: '#fff',
-  top: 10,
-  font: {fontSize: 22, fontFamily: 'Dangle'}
-},
 'Button': {
   top: 10,
   backgroundImage: 'none',

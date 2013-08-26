@@ -11,7 +11,7 @@
     <Button id="addKid">Add Kid</Button>
     <Button id="addTask">Add Task</Button>
     <TableView dataCollection="kids" id="kidList">
-      <TableViewRow title="{name}" kidId="{alloy_id}"></TableViewRow>
+      <TableViewRow title="{name}" kidId="{id}"></TableViewRow>
     </TableView>
 	</Window>
 </Alloy>
